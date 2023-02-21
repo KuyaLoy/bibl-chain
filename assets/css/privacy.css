@@ -1,0 +1,41 @@
+header{
+    /* height:126px; */
+    position:fixed !important;
+    background-color:white !important;
+}
+h2{
+    font-weight: normal;
+}
+h3{
+    font-weight: normal;
+}
+.privacy-list li{
+    list-style-type:disc;
+}
+.terms-list li{
+    list-style-type: decimal;
+}
+.privacy-container{
+    padding-bottom:6rem;
+    padding-top:11rem;
+    max-width: 1320px;
+    padding-left: 30px;
+    padding-right:30px;
+    width:auto;
+    margin-inline:auto;
+}
+ul.privacy-list{
+    margin-bottom:30px !important;
+}
+
+@media (max-width:600px){
+    /* header{
+        height:90px;
+    } */
+    .privacy-container{
+        padding-bottom: 3rem;
+        padding-top:7rem !important;
+        padding-left:15px;
+        padding-right:15px;
+    }
+}
